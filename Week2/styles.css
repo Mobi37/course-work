@@ -1,0 +1,712 @@
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "FuturaDemi";
+    src: url("fonts/FuturaRegular/FuturaNewDemi-Reg.eot");
+    src: url("fonts/FuturaRegular/FuturaNewDemi-Reg.eot?#iefix")format("embedded-opentype"),
+    url("fonts/FuturaRegular/FuturaNewDemi-Reg.woff") format("woff"),
+    url("fonts/FuturaRegular/FuturaNewDemi-Reg.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body{
+    font-family: "GothamProRegular";
+}
+
+header .favorites{
+    display: none;
+}
+
+.menu_low{
+    display: none;
+}
+
+
+header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color:black;
+    padding: 10px 0px 12px 0px;
+    float: left;
+}
+
+.header{
+    margin-left: 133px;
+    margin-right: 98px;
+}
+
+header a{
+    margin-right: 34px;
+    color: White;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+.header_menu{
+    color: white;
+    float: right;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+header img{
+    height: 10px;
+    width: 28px;
+    margin-left: 11px;
+}
+
+.header_logo{
+    height: 105px;
+    width: 199px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3F3F3;
+    margin-top: -83px;
+}
+
+.header_logo img{
+    height: 66px;
+    width: 170.26px;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.header_number{
+    margin-left: 124px;
+    padding-top: 76px;
+}
+
+.up_text{
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.bot_text{
+    font-size: 15px; 
+}
+
+.upper_text{  
+    margin-top: -2px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bottom_text{
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-left: 32px;
+    margin-top: -9px;
+    font-weight: bolder;
+}
+
+.header_number img{
+    float: left;
+    height: 21px;
+    width: 20.99px;
+    margin-right: 11px;
+
+}
+
+.header_email{
+    margin-left: 335px;
+}
+
+.header_email img{
+    float: left;
+    height: 17px;
+    width: 24px;
+    margin-right: 11px;
+    margin-top: 3px;
+}
+
+.upper_text_email{
+    line-height: 10px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+.bottom_text_email{
+    line-height: 18px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: -11px;
+}
+
+
+.header_aut{
+    float: right;
+    margin-top: -80px;
+    margin-right: 293px;
+    cursor: pointer;
+}
+.header_aut img{
+    width: 21px;
+    height: 21px;
+    margin-left: 21px;
+    margin-top: 20px;
+}
+
+.upper_text_aut{
+    float: left;
+    line-height: 12px;
+    text-align: right;
+    margin-top: 17px;
+    margin-right: -10px;
+    font-weight: bold;
+}
+
+.bottom_text_aut{
+    float: left;
+    line-height: 18px;
+    text-align: right;
+    margin-top: 27px;
+    margin-right: -85px;
+    font-weight: bold;
+}
+
+.header_basken{
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.header_basken img{
+    float: right;
+    width: 34px;
+    height: 25px;
+    margin-top: -62px;
+    margin-right: 121px;
+}
+
+.bottom_text_basken{
+    line-height: 18px;
+    text-align: right;
+    margin-right: 165px;
+    margin-top: -52.5px;
+    font-weight: bold;
+}
+
+.upper_text_basken{
+    line-height: 12px;
+    text-align: right;
+    margin-top: -44px;
+    margin-right: 165px;
+}
+
+.furniture_sections{
+    height: 63px;
+    margin-top: 49px;
+    padding: 23px 0px 22px 124px;
+}
+
+.furniture_sections div{
+    float: left;
+}
+
+/*===============furniture===============*/
+
+.furniture_armchair{
+    margin-right: 61px;
+    cursor: pointer;
+}
+.furniture_lamp{
+    margin-right: 61px;
+    cursor: pointer;
+}
+.furniture_sofas{
+    margin-right: 60px;
+    cursor: pointer;
+}
+.furniture_table{
+    margin-right: 75px;
+    cursor: pointer;
+}
+.furniture_chairs{
+    margin-right: 92px;
+    cursor: pointer;
+}
+.furniture_pouf{
+    margin-right: 75px;
+    cursor: pointer;
+}
+.furniture_decor{
+    margin-right: 66px;
+    cursor: pointer;
+}
+.furniture_benches{
+    margin-right: 61px;
+    cursor: pointer;
+}
+
+/*==============================================*/
+
+.furniture_armchair img{
+    height: 37.61px;
+    width: 33.9px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.furniture_lamp img{
+    height: 37.61px;
+    width: 26.9px;
+    margin-left: 38px;
+    margin-top: 2px;
+}
+.furniture_sofas img{
+    height: 37.61px;
+    width: 51.46px;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.furniture_table img{
+    height: 37px;
+    width: 37px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.furniture_chairs img{
+    height: 37px;
+    width: 22.19px;
+    margin-top: 3px;
+}
+.furniture_pouf img{
+    height: 37px;
+    width: 33.61;
+    margin-left: -14px;
+    margin-top: 3px;
+}
+.furniture_decor img{
+    height: 31.5px;
+    width: 37px;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.furniture_benches img{
+    height: 31.3px;
+    width: 45.87px;
+    margin-left: 29px;
+    margin-top: 8px;
+}
+.furniture_more img{
+    margin-top: 2px;  
+}
+
+/*=======================================*/
+.furniture_sections p{
+    font-size: 11.3023px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.furniture_armchair p{
+    margin-left: 2px;
+}
+.furniture_sofas p{
+    margin-left: 1px;
+}
+.furniture_table p{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+.furniture_pouf p{
+    margin-top: 12px;
+    margin-left: -16px;
+}
+.furniture_decor p{
+    margin-top: 15px;
+}
+.furniture_more p{
+    margin-top: -15.5px;
+    margin-right: 8px;
+}
+.furniture_chairs p{
+    margin-left: -17px;
+    margin-top: 12px;
+}
+
+.furniture_sections .text_info{
+    line-height: 11px;
+}
+
+/*content*/
+.content{
+    height: 400px;
+}
+/*=======*/
+
+footer{
+    width: 100%;
+    font-family: "FuturaDemi";
+}
+
+footer .basement{
+    position: absolute;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    max-height: 480px;
+}
+
+.bs{
+    padding-top: 61px;
+    color: white;
+}
+
+.row{
+    padding-left: 130px;
+    padding-right: 130px;
+    text-transform: uppercase;
+}
+
+footer h1{
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    font-weight: 520;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-bottom: 22px;
+
+}
+
+footer p{
+    font-size: 10px;
+    line-height: 4px;
+    letter-spacing: 0.2em;
+    color: white;
+    border: none;
+    margin-left: 2px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.second_row{
+    margin-top: 32px;
+}
+
+.bas_light h1{
+    margin-left: 10px;
+}
+
+.bas_light p{
+    margin-left: 10px;
+}
+
+.bas_decor h1{
+    margin-left: 18px;
+}
+.bas_decor p{
+    margin-left: 18px;
+}
+
+.bas_company p{
+    margin-left: 10px;
+}
+.bas_company h1{
+    margin-left: 10px;
+}
+
+.bas_other{
+    margin-left: 9px;
+}
+
+.bas_contacts{
+    text-align: right;
+}
+
+.bas_contacts h1{
+    margin-right: 2px;
+    margin-top: 2px;
+}
+
+.bas_email{
+    text-transform: none;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -42px;
+    margin-right: 130px;
+    letter-spacing: 0;
+}
+
+.check_mark{
+    margin-right: -12px;
+    margin-top: -10px;
+}
+
+.bas_line{
+    margin-top: -82px;
+    margin-right: 2px;
+}
+
+.bas_inst{
+    margin-right: 6px;
+    margin-top: -48px;
+}
+
+.bas_facebook{
+    margin-top: -48px;
+    margin-right: 2px;
+}
+
+/*==========media=============*/
+
+@media screen and (max-width: 1280px){
+    .header_menu{
+        display: none;
+    }
+
+    header{
+        padding: 29px 0px 28px 0px;
+    }
+
+    .header a{
+        font-size: 12px;
+        letter-spacing: 0;
+        margin-right: 30px;
+    }
+
+    .header{
+        margin-left: 30px;
+    }
+
+    .header_logo{
+        width: 210px;
+        margin-top: -97px;
+    }
+
+    .header_logo img{
+        width: 175px;
+        margin-top: 19px;
+        margin-left: 18px;
+    }
+
+    .header_number{
+        margin-left: 30px;
+        padding-top: 98px;
+    }
+
+    .bottom_text{
+        margin-top: -15px;
+        margin-left: 22px;
+    }
+    .header_number img{
+        margin-right: 10px;
+    }
+
+    .header_email img{
+        width: 22px;
+        height: 15px;
+        margin-right: 8px;
+        margin-top: 7px;
+    }
+
+    .header_email{
+        margin-left: 30px;
+        margin-top: 57px;
+    }
+
+    .upper_text_email{
+        margin-top: -45px;
+        font-size: 10.5px;
+    }
+
+    .bottom_text_email{
+        margin-top: -15px;
+        margin-left: 30px;
+    }
+
+    .header_basken img{
+        height: 23px;
+        width: 32px;
+        margin-right: 24px;
+        margin-top: -69px;
+    }
+
+    .bottom_text_basken{
+        margin-right: 60px;
+        margin-top: -62px;
+    }
+
+    .upper_text_basken{
+        margin-top: -46px;
+        margin-right: 62px;
+        font-size: 10.5px;
+    }
+
+    .header_aut{
+        margin-right: 165px;
+        margin-top: -90px;
+    }
+
+    .upper_text_aut{
+        font-size: 10.5px;
+    }
+
+    .bottom_text_aut{
+        margin-right: -90px;
+        margin-top: 29px;
+    }
+
+    .furniture_sections{
+        margin-top: 60px;
+        padding: 23px 0px 22px 33px;
+    }
+
+    .furniture_more{
+        display: none;
+    }
+
+    .furniture_benches{
+        display: none;
+    }
+
+    .furniture_armchair{
+        margin-right: 58px;
+    }
+
+    .furniture_lamp{
+        margin-right: 58px;
+    }
+
+    .furniture_sofas{
+        margin-right: 76px;
+    }
+
+    .furniture_table{
+        margin-right: 107px;
+    }
+
+    .furniture_chairs{
+        margin-right: 110px;
+    }
+
+    .furniture_pouf{
+        margin-right: 95px;
+    }
+    
+    .furniture_decor{
+        margin-right: 0px;
+    }
+
+}
+
+/*============================*/
+
+@media screen and (max-width: 768px){
+    header{
+        padding: 21px 0px 18px 0px;
+    }
+    
+    
+
+    .header_number{
+        display: none;
+    }
+
+    .header_email{
+        display: none;
+    }
+
+    .furniture_sections{
+        display: none;
+    }
+
+    .header a{
+        display: none;
+    }
+
+    .header_logo{
+        width: 125px;
+        height: 92px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 57px;
+    }
+    .header_logo img{
+        height: 48px;
+        width: 125px;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    header .favorites{
+        display: block;
+        float: left;
+        color: white;
+        margin-right: -5px;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    .favorites img{
+        margin-left: -6px;
+        height: 22px;
+        width: 25px;
+    }
+
+    .header_aut img{
+        display: none;
+    }
+
+    .header_basken img{
+        display: none;
+    }
+
+    .upper_text_basken{
+        margin-top: -50px;
+        margin-right: 25px;
+        font-size: 12px;
+    }
+
+    .bottom_text_basken{
+        margin-top: -41px;
+        margin-right: 20px;
+        font-size: 19px;
+    }
+
+
+    .bottom_text_aut{
+        margin-top: 49px;
+        margin-right: -108px;
+        font-size: 19px;
+    }
+
+    .upper_text_aut{
+        font-size: 12px;
+        margin-top: 33px;
+        margin-right: 4px;
+    }
+
+    .menu_low{
+        display: block;
+        float: right;
+        margin-right: -62px;
+        margin-top: 1px;
+    }
+
+}

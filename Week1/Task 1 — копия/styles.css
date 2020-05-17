@@ -1,0 +1,50 @@
+body{
+    font-family: Roboto;
+}
+
+.headers{
+    margin-left: 1px;
+}
+
+h1{
+    font-size: 36px;
+    
+}
+h2{
+    margin-top: 50px;
+}
+.first_head{
+    width: 480px;
+    height: 220px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-indent: 15px;
+}
+
+.first_text{
+    margin-top: 32.5px;
+    margin-left: 1px;
+}
+
+.second_text{
+    margin-top: 23px;
+    margin-left: 1px;
+}
+
+.second_head{
+    width: 482px;
+    height: 115px;
+    margin-top: 23px;
+    margin-left: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-indent: 15px;
+}
+

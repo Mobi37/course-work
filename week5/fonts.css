@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/roboto/Roboto-Regular.eot");
+    src: url("fonts/roboto/Roboto-Regular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/roboto/Roboto-Regular.woff") format("woff"),
+    url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto_Medium";
+    src: url("fonts/roboto/Roboto-Medium.eot");
+    src: url("fonts/roboto/Roboto-Medium.eot?#iefix")format("embedded-opentype"),
+    url("fonts/roboto/Roboto-Medium.woff") format("woff"),
+    url("fonts/roboto/Roboto-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto_black";
+    src: url("fonts/roboto/Roboto-Black.eot");
+    src: url("fonts/roboto/Roboto-Black.eot?#iefix")format("embedded-opentype"),
+    url("fonts/roboto/Roboto-Black.woff") format("woff"),
+    url("fonts/roboto/Roboto-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto_tilted";
+    src: url("fonts/roboto/Roboto-Italic.eot");
+    src: url("fonts/roboto/Roboto-Italic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/roboto/Roboto-Italic.woff") format("woff"),
+    url("fonts/roboto/Roboto-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

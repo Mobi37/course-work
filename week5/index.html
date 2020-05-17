@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+        <link type="text/css" rel="stylesheet" href="fonts.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+    </head>
+    <body>
+        <div class="js-scale"></div>
+        <header class="header">
+            <div class="header__content header__content_width">
+                <div class="row">
+                    <div class="col-xl-2 col-md-2 col-2 header__company">
+                        <div class="header__name">
+                            <img src="img/header/SOM.png" alt="">
+                        </div>
+                        <div class="header__tagline">
+                            <ul class="text-color">
+                                <li>Seller</li>
+                                <li>Online</li>
+                                <li>Marketplace</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-3 header__search">
+                        <div class="header__textline">
+                            <input type="text" name="" id="" class="header__input header__input_size">
+                            <img src="img/header/search.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-3 header__currency position-block">
+                        <div class="header__money">
+                            <p class="text-color">Currency</p>
+                            <select name="" id="" class="text-color">
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="EN">EN</option>
+                                <option value="CH">CH</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-2 col-9 header__interactions position-block">
+                        <div class="header__personal">
+                            <div class="header__basket-block">
+                                <div class="header__basket">
+                                    <img src="img/header/basket.png" alt="">
+                                    <div class="header__quantity-basket"> <span>34</span> </div>
+                                </div>
+                            </div>        
+                            <div class="header__authentication">
+                                <img src="img/header/personal.png" alt="">
+                            </div>
+                            <div class="header__menu">
+                                <img src="img/header/menu.png" alt="" onclick="menu()">
+                                <ul>
+                                    <li>Leather goods</li>
+                                    <li>Wood products</li>
+                                    <li>Wedding</li>
+                                    <li>Happy Birthday</li>
+                                    <li>Toys and entertainment</li>
+                                    <li>Art objects</li>
+                                    <li>Goods for needlework</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="nav__content nav__content_width">
+                    <div class="nav__content-block-1 text-style"><div class="nav__text-1 nav__style  nav__blocks_hover">Leather goods</div></div>
+                    <div class="nav__content-block-2 text-style"><div class="nav__text-2 nav__style nav__blocks_hover">Wood products</div></div>
+                    <div class="nav__content-block-3 text-style"><div class="nav__text-3 nav__style nav__blocks_hover">Wedding</div></div>
+                    <div class="nav__content-block-4 text-style"><div class="nav__text-4 nav__style nav__blocks_hover">Happy Birthday</div></div>
+                    <div class="nav__content-block-5 text-style"><div class="nav__text-5 nav__style nav__blocks_hover">Toys and entertainment</div></div>
+                    <div class="nav__content-block-6 text-style"><div class="nav__text-6 nav__style nav__blocks_hover">Art objects</div></div>
+                    <div class="nav__content-block-7 text-style"><div class="nav__text-7 nav__style nav__blocks_hover">Goods for needlework</div></div>
+            </div>
+        </nav>
+
+        <section class="info-swiper">
+            <div class="info-swiper__block-swiper info-swiper__block-swiper_width">
+                <div class="row info-swiper__main-content">
+                    <div class="col-12 col-md-8 col-xl-8 info-swiper__swiper-1">
+                        <div class="swiper-container info-swiper__slide-js">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                   <img src="img/slider/slider.png" alt="">
+                                   <div class="swiper-content">  
+                                        <div> Handmade <br> sweets </div>
+                                        <button>View <span>456</span> products</button> 
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slider/slider.png" alt="">
+                                    <div class="swiper-content">  
+                                         <div> Handmade <br> sweets </div>
+                                         <button>View <span>456</span> products</button> 
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/slider/slider.png" alt="">
+                                    <div class="swiper-content">  
+                                         <div> Handmade <br> sweets </div>
+                                         <button>View <span>456</span> products</button> 
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/slider/slider.png" alt="">
+                                    <div class="swiper-content">  
+                                         <div> Handmade <br> sweets </div>
+                                         <button">View <span>456</span> products</button> 
+                                     </div>
+                                 </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-4 info-swiper__swiper-2">
+                        <div class="info-swiper__banner info-swiper__banner_size">
+                            <div class="info-swiper__banner-content">
+                                <div> <p>Want <br> to sell <br> on som?</p> </div>
+                                <button  class="button">Create a store</button>
+                            </div>
+                            <div class="info-swiper__banner-logo">
+                                <img src="img/slider/banner.png" alt=""> 
+                            </div> 
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="about-us__content">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-4 about-us__block-1">
+                        <img src="img/about_us/image-firstblock.png" alt="">
+                        <div>
+                            <h5 class="text-head5">Unique everything</h5>
+                            <p class="text-comment">We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 about-us__block-2">
+                        <img src="img/about_us/image-secondblock.png" alt="">
+                        <div>
+                            <h5 class="text-head5">Independent sellers</h5>
+                            <p class="text-comment">Buy directly from someone who put their heart and soul into making something special.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 about-us__block-3">
+                        <img src="img/about_us/image-thirdblock.png" alt="">
+                        <div>
+                            <h5 class="text-head5">Secure shopping</h5>
+                            <p class="text-comment">We use best-in-class technology to protect your transactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lineswiper">
+            <div class="lineswiper__content">
+                <div class="lineswiper__title row">
+                    <div class="col-10 lineswiper__head-text"><h3 class="text-head3">Recently viewed</h3></div>
+                    <div class="col-2 button-swiper">
+                        <div class="button-top-prev"> <img src="img/slider/arrow.png" alt=""> </div>
+                        <div class="button-top-next"> <img src="img/slider/arrow.png" alt=""> </div>
+                    </div>
+                </div>
+                <div class="swiper-container lineswiper__infoslider-js">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="lineswiper__slider-content">
+                            <img src="img/recently/recently-img-1.png" alt="" class="lineswiper__slider-img">
+                            <p class="paragrah-text">Personalized dog leash hanger handmade from the base</p>
+                            <h4 class="text-head4">Sold</h4>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="lineswiper__slider-content">
+                          <img src="img/recently/recently-img-2.png" alt="" class="lineswiper__slider-img">
+                          <p class="paragrah-text">Stamped pet ID tag</p>
+                          <h4 class="text-head4">$23.99</h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lineswiper__slider-content">
+                          <img src="img/recently/recently-img-3.png" alt="" class="lineswiper__slider-img">
+                          <p class="paragrah-text">Personalized Cutting Board - Engraved Cutting Board, Custom Cutting Board</p>
+                          <h4 class="text-head4">$52.00  </h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lineswiper__slider-content">
+                          <img src="img/recently/recently-img-4.png" alt="" class="lineswiper__slider-img">
+                          <p class="paragrah-text">Silicone Bamboo Mold, Chocolate Mold</p>
+                          <h4 class="text-head4 new-price">$37.80 <span class="old-price">$45.20</span> </h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lineswiper__slider-content">
+                          <img src="img/recently/recently-img-3.png" alt="" class="lineswiper__slider-img">
+                          <p class="paragrah-text">Personalized Cutting Board - Engraved Cutting Board, Custom Cutting Board</p>
+                          <h4 class="text-head4">$52.00  </h4>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lineswiper__slider-content">
+                          <img src="img/recently/recently-img-2.png" alt="" class="lineswiper__slider-img">
+                          <p class="paragrah-text">Stamped pet ID tag</p>
+                          <h4 class="text-head4">$23.99</h4>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+
+        <section class="lineswiper reviews">
+            <div class="lineswiper__content">
+                <div class="lineswiper__title row">
+                    <div class="col-10 reviews__head-title"><h3 class="text-head3">New customer reviews</h3></div>
+                    <div class="col-2 button-swiper">
+                        <div class="button-swiper-scroll-prev"> <img src="img/slider/arrow.png" alt=""> </div>
+                        <div class="button-swiper-scroll-next"> <img src="img/slider/arrow.png" alt=""> </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-container lineswiper__infoslider2-js">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">I ordered a geyser coffee machine. The coffee machine is out of order. It is not possible to prepare coffee since it is not possible to close tightl</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user1.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user1.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">Alexander</h6>
+                                        <p class="text-date">12 sept 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">These are GREAT~!!! Cat was quite eager and happy to work with us on what our daughter would love. The signs were exactly what our daughter would want. Great work! Thank you so very much for your quick service and EXCELLEN</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user2.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user2.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">Kate</h6>
+                                        <p class="text-date">15 may 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+    
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">There is no supply of coffee at all, water flows at the junction of the connection of these parts. Tightly tie fails (closes obliquely) for the reason that stopping too long nozzle container for coffee (instructions 4)</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user3.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user3.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">jennifer</h6>
+                                        <p class="text-date">14 march 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">There is no supply of coffee at all, water flows at the junction of the connection of these parts. Tightly tie fails (closes obliquely) for the reason that stopping too long nozzle container for coffee (instructions 4)</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user3.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user3.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">jennifer</h6>
+                                        <p class="text-date">14 march 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">I ordered a geyser coffee machine. The coffee machine is out of order. It is not possible to prepare coffee since it is not possible to close tightl</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user1.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user1.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">Alexander</h6>
+                                        <p class="text-date">12 sept 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="swiper-slide">
+                            <div class="reviews__content">
+                                <div class="reviews__rate">
+                                    <div class="reviews__stars rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                    <div class="reviews__stars no-rate-stars"></div>
+                                </div>
+                                <div class="reviews__comment-text">
+                                    <p class="text-tilted">These are GREAT~!!! Cat was quite eager and happy to work with us on what our daughter would love. The signs were exactly what our daughter would want. Great work! Thank you so very much for your quick service and EXCELLEN</p>
+                                </div>
+                                <div class="reviews__person">
+                                    <div class="reviews__person-img">
+                                        <img src="img/view/logo-user2.png" alt="" class="reviews__logo">
+                                        <img src="img/view/photo-user2.png" alt="" class="reviews__photo">
+                                    </div>
+                                    <div class="reviews__info-person">
+                                        <h6 class="text-name">Kate</h6>
+                                        <p class="text-date">15 may 2019 г</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-bottom">
+            <div class="banner-bottom__content banner-bottom__content_size">
+                <div class="banner-bottom__paragraph">
+                    <div class="banner-bottom__text-content">
+                        <p class="banner-bottom__text">What is <br> Seller-online ?</p>
+                    </div>
+                    <div class="banner-bottom__button low-scale">
+                        <button>Read more</button>
+                    </div> 
+                </div>
+                <div class="banner-bottom__image">
+                    <div class="banner-bottom__logo">
+                        <img src="img/banner-bottom/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="banner-bottom__button">
+                    <button>Read more</button>
+                </div>    
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="footer__blocks">
+                        <div class="row footer__content-block">
+                            <div class="col-12 col-md-4 col-xl-3">
+                                <h4 class="text-head4">Store</h4>
+                                <p class="text-footer">Подарочные сертификаты</p>
+                                <p class="text-footer">Seller-online блог</p>
+                            </div>
+                            <div class="col-12 col-md-4 col-xl-3">
+                                <h4 class="text-head4">Sell</h4>
+                                <p class="text-footer">Sell on SOM</p>
+                                <p class="text-footer">Teams</p>
+                                <p class="text-footer">Forums</p>
+                            </div>
+                            <div class="col-12 col-md-4 col-xl-3">
+                                <h4 class="text-head4">About</h4>
+                                <p class="text-footer">Seller-online, Inc.</p>
+                                <p class="text-footer">Policies</p>
+                                <p class="text-footer">Investors</p>
+                                <p class="text-footer">Careers</p>
+                                <p class="text-footer">Press</p>
+                                <p class="text-footer">Impact</p>
+                                <p class="text-footer">Legal imprint</p>
+                            </div>
+                            <div class="col-12 col-md-4 col-xl-3">
+                                <h4 class="text-head4">Follow SOM</h4>
+                                <p class="text-footer">Facebook</p>
+                                <p class="text-footer">Instagram</p>
+                                <p class="text-footer">Pinterest</p>
+                                <p class="text-footer">Twitter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__container2">
+                   <div class="footer__prot">
+                        <div class="row footer__info-prot">
+                            <div class="col-6 col-md-1 col-xl-1"> <img src="img/footer/SOM.png" alt=""> </div>
+                            <div class="col-6 col-md-1 col-xl-1"> <p class="footer__copyright text-footer">© 2019 Solma</p> </div>
+                            <div class="col-12 col-md-5 col-xl-7"></div>
+                            <div class="col-4 col-md-1 col-xl-1"> <p class="text-footer">Terms of Use</p> </div>
+                            <div class="col-4 col-md-1 col-xl-1"> <p class="text-footer">Privacy</p> </div>
+                            <div class="col-4 col-md-1 col-xl-1"> <p class="text-footer">Interest-based ads</p> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/swiper.min.js"></script>
+        <script src="js/nav-swiper.js"></script>
+        <script src="js/section-block-swiper.js"></script>
+        <script src="js/header-menu.js" ></script>
+
+    </body>
+</html>

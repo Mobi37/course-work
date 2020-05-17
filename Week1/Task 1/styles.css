@@ -1,0 +1,32 @@
+body{
+    font-family: Roboto;
+}
+
+.headers{
+    margin-left: 1px;
+}
+
+.content h1{
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+.content h2{
+    margin-top: 47px;
+}
+
+.content p{
+    margin-top: 22.5px;
+}
+
+.head_text{
+    width: 480px;
+    margin-top: 23px;
+    margin-left: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-indent: 15px;
+}
+
